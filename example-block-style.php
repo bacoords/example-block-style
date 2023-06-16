@@ -13,6 +13,11 @@
  * @package           create-block
  */
 
+/**
+ * Register our custom block style
+ *
+ * @return void
+ */
 function wp_dev_register_block_style() {
 
 	wp_enqueue_block_style(
