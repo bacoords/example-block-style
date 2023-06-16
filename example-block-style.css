@@ -1,0 +1,18 @@
+ul.is-style-check{
+	/* list-style-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' aria-hidden='true' focusable='false'%3E%3Cpath d='M16.7 7.1l-6.3 8.5-3.3-2.5-.9 1.2 4.5 3.4L17.9 8z'%3E%3C/path%3E%3C/svg%3E"); */
+	list-style-type: none;
+}
+
+ul.is-style-check li::before{
+	content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' aria-hidden='true' focusable='false'%3E%3Cpath d='M16.7 7.1l-6.3 8.5-3.3-2.5-.9 1.2 4.5 3.4L17.9 8z'%3E%3C/path%3E%3C/svg%3E");
+	display: inline-block;
+	width:1.25em;
+	height:1.25em;
+	vertical-align: middle;
+	margin-right: 0.5em;
+}
+
+ul.is-style-check li > div{
+	display:inline-block;
+	vertical-align: middle;
+}
